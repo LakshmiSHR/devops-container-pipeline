@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install -r requirements.txt
 
-CMD ["pytest"]
+CMD ["pytest", "test_calculator.py", "-v"]
